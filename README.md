@@ -1,6 +1,6 @@
-## Code for ICLR 2025 Submission
-
-### Requirements
+# HUMPA
+This repository contains the code for [Humanizing the Machine: Proxy Attacks to Mislead LLM Detectors](https://arxiv.org/pdf/2410.19230) publised in ICLR 2025.
+### Dependencies
 
 - python 3.10
 - pytorch 2.3.1+cu121
@@ -33,3 +33,13 @@ python detection_eval/baseline_eval.py
 python detection_eval/fast_detectgpt_eval.py
 ```
 
+## Citation
+
+```bash
+@article{wang2024humanizing,
+  title={Humanizing the Machine: Proxy Attacks to Mislead LLM Detectors},
+  author={Wang, Tianchun and Chen, Yuanzhou and Liu, Zichuan and Chen, Zhanwen and Chen, Haifeng and Zhang, Xiang and Cheng, Wei},
+  journal={arXiv preprint arXiv:2410.19230},
+  year={2024}
+}
+```
